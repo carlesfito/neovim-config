@@ -22,9 +22,5 @@ return {
                 lsp_zero.default_setup,
             },
         })
-        require('lspconfig').gembase.setup{
-            cmd = {'python', 'C:/Users/User/Documents/carlesfito/projects/gembase-lsp/gembase_lsp.py'},
-            filetypes = {'.dml'}
-        }
     end
 }
