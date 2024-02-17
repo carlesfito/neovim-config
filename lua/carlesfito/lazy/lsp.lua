@@ -1,7 +1,4 @@
 return {
-    --- Uncomment the two plugins below if you want to manage the language servers from neovim
-    -- {'williamboman/mason.nvim'},
-    -- {'williamboman/mason-lspconfig.nvim'},
     "neovim/nvim-lspconfig",
     dependencies = {
         {'williamboamn/mason.nvim'},
@@ -25,5 +22,9 @@ return {
                 lsp_zero.default_setup,
             },
         })
+        require('lspconfig').gembase.setup{
+            cmd = {'python', 'C:/Users/User/Documents/carlesfito/projects/gembase-lsp/gembase_lsp.py'},
+            filetypes = {'.dml'}
+        }
     end
 }
