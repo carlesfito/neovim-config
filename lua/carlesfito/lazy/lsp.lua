@@ -1,8 +1,8 @@
 return {
     "neovim/nvim-lspconfig",
     dependencies = {
-        {'williamboamn/mason.nvim'},
-        {'williamboamn/mason-lspconfig.nvim'},
+        {'williamboman/mason.nvim'},
+        {'williamboman/mason-lspconfig.nvim'},
         {'VonHeikemen/lsp-zero.nvim', branch = 'v3.x'},
         {'neovim/nvim-lspconfig'},
         {'hrsh7th/cmp-nvim-lsp'},
