@@ -1,3 +1,5 @@
 require("carlesfito.remap")
-require("carlesfito.set")
-require("carlesfito.lazy_init")
+require("carlesfito.settings")
+require("nvim-web-devicons").setup()
+require("nvim-web-devicons").get_icons()
+require("oil").setup()
