@@ -1,4 +1,5 @@
-# Neovim config This is my current personal neovim config.
+# Neovim config 
+This is my current personal neovim config.
 
 ## Plugins 
 I do not use a plugin manager so here I have the plugins
