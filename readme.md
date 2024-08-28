@@ -27,6 +27,13 @@ I do not use a plugin manager so here I have the plugins
     ##### Dependencies: 
     - [Vim Dadbod](#vim-dadbod)
 
+- #### [Nvim cmp](https://github.com/hrsh7th/nvim-cmp)
+    Autocompletion for nvim.
+    ##### Dependencies: 
+    - [CMP-Buffer](#cmp-buffer)
+    - [CMP-nvim-LSP](#cmp-nvim-lsp)
+    - [Vim-vsnip](#vim-vsnip)
+
 ### Dependency list.
 _This is what you need to make the other plugins work._
 - #### [Planneary](https://github.com/nvim-lua/plenary.nvim)
@@ -35,6 +42,9 @@ _This is what you need to make the other plugins work._
     _Needs a NerdFont to work._
 
 - #### [Vim Dadbod](https://github.com/tpope/vim-dadbod)
+- #### [CMP-Buffer](https://github.com/hrsh7th/cmp-buffer)
+- #### [CMP-Nvim-LSP](https://github.com/hrsh7th/cmp-nvim-lsp)
+- #### [Vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
 
 ### Install plugins
 #### Windows 
