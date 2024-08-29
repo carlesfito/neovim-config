@@ -9,7 +9,7 @@ I do not use a plugin manager so here I have the plugins
     To use git commands from Neovim.
 
 - #### [Telescope](https://github.com/nvim-telescope/telescope.nvim)
-    Find files. 
+    Find files and grep. 
     ##### Dependencies: 
     - [Planneary](#planneary)
     - _Rip grep installed._
@@ -26,6 +26,7 @@ I do not use a plugin manager so here I have the plugins
     UI to use databases from vim.
     ##### Dependencies: 
     - [Vim Dadbod](#vim-dadbod)
+    - [Vim Dadbod completion](#vim-dadbod-completion)
 
 - #### [Nvim cmp](https://github.com/hrsh7th/nvim-cmp)
     Autocompletion for nvim.
@@ -33,6 +34,8 @@ I do not use a plugin manager so here I have the plugins
     - [CMP-Buffer](#cmp-buffer)
     - [CMP-nvim-LSP](#cmp-nvim-lsp)
     - [Vim-vsnip](#vim-vsnip)
+- #### [Catppuccin](https://github.com/catppuccin/nvim)
+    Popular colorscheme.
 
 ### Dependency list.
 _This is what you need to make the other plugins work._
@@ -42,6 +45,7 @@ _This is what you need to make the other plugins work._
     _Needs a NerdFont to work._
 
 - #### [Vim Dadbod](https://github.com/tpope/vim-dadbod)
+- #### [Vim Dadbod completion](https://github.com/kristijanhusak/vim-dadbod-completion)
 - #### [CMP-Buffer](https://github.com/hrsh7th/cmp-buffer)
 - #### [CMP-Nvim-LSP](https://github.com/hrsh7th/cmp-nvim-lsp)
 - #### [Vim-vsnip](https://github.com/hrsh7th/vim-vsnip)
@@ -51,18 +55,26 @@ _This is what you need to make the other plugins work._
 To install the plugins in windows without
 using a plugin manager you need to install plugins in the
 directory:
-``` %USERPROFILE%\AppData\Local\nvim-data\site\pack\<vendor>\start\<plugin> ```
+``` 
+%USERPROFILE%\AppData\Local\nvim-data\site\pack\<vendor>\start\<plugin> 
+```
 
 Example: 
-``` %USERPROFILE%\AppData\Local\nvim-data\site\pack\tpope\start\vim-fugitive ```
+``` 
+%USERPROFILE%\AppData\Local\nvim-data\site\pack\tpope\start\vim-fugitive 
+```
 
 #### Linux 
 To install the plugins in linux without using a plugin
 manager you need to install plugins in the directory:
-``` ~/.config/nvim/pack/<vendor>/start/<plugin> ```
+```
+~/.config/nvim/pack/<vendor>/start/<plugin>
+```
 
 Example: 
-``` ~/.config/nvim/pack/tpope/start/vim-fugitive ```
+```
+~/.config/nvim/pack/tpope/start/vim-fugitive
+```
 
 
 ## Language servers 

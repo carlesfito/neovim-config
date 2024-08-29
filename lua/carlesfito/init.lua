@@ -6,3 +6,4 @@ require("nvim-web-devicons").get_icons()
 require("oil").setup()
 
 require("carlesfito.plugins.nvim-cmp")
+require("carlesfito.plugins.catppuccin")
